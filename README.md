@@ -87,6 +87,8 @@ py analytics.py
 
 ## Screenshots
 
+&nbsp;
+
 **1. Main**
 
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/ea0abe8d-f868-412e-a249-c5fb77325094" />
