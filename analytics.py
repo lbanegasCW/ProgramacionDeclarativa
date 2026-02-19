@@ -13,12 +13,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
 
+# Defino el directorio con los datasets
+dataset_folder = 'datasets/'
+
 # Cargar el archivo CSV con los puestos de trabajo
-archivo_puestos = 'puestos_priv.csv'
+archivo_puestos = dataset_folder + 'puestos_priv.csv'
 df_puestos = pd.read_csv(archivo_puestos)
 
 # Cargar el archivo CSV con los códigos y nombres de actividad económica
-archivo_codigos = 'clae_agg.csv'
+archivo_codigos = dataset_folder + 'clae_agg.csv'
 df_codigos = pd.read_csv(archivo_codigos)
 
 # Fusionar los DataFrames utilizando el código de actividad económica como clave
