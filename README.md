@@ -70,3 +70,35 @@ En la terminal, ejecuta el siguiente comando para activar el entorno virtual:
 ```bash
 .\env\Scripts\activate
 ```
+
+## Ejecución
+
+**1. Instalar dependencias**
+
+```bash
+py -m pip install pandas matplotlib
+```
+
+**2. Ejecutar aplicación**
+
+```bash
+py analytics.py
+```
+
+## Screenshots
+
+**1. Main**
+
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/ea0abe8d-f868-412e-a249-c5fb77325094" />
+
+**2. Distribución nacional**
+
+<img width="1917" height="1028" alt="image" src="https://github.com/user-attachments/assets/96da25a8-0b9a-4f00-b888-b93a203a8b64" />
+
+**3. Grafico de líneas**
+
+<img width="1916" height="1029" alt="image" src="https://github.com/user-attachments/assets/1dff192c-3e8c-4bea-8294-674812a134ed" />
+
+
+
+
